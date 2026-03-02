@@ -1,0 +1,36 @@
+name: Karate CI
+
+# Define cuándo se ejecuta: cada vez que haces push a estas ramas
+on:
+  push:
+    branches: [ "main", "feature/001-usuarios-nuevos" ]
+  pull_request:
+    branches: [ "main" ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 1. Descarga tu código del repositorio
+      - uses: actions/checkout@v3
+
+      # 2. Configura Java 17
+      - name: Set up JDK 17
+        uses: actions/setup-java@v3
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'maven' # Optimiza la velocidad guardando dependencias
+
+      # 3. Ejecuta los tests con Karate (vía Maven)
+      - name: Build and Test with Maven
+        run: mvn clean test
+
+      # 4. Guarda los reportes HTML de Karate para poder descargarlos
+      - name: Upload Karate Reports
+        uses: actions/upload-artifact@v3
+        if: always() # Se ejecuta aunque los tests fallen
+        with:
+          name: karate-reports
+          path: target/karate-reports/
