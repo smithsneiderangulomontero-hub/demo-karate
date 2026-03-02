@@ -5,6 +5,10 @@ on:
     branches: [ "main", "feature/001-usuarios-nuevos" ]
   pull_request:
     branches: [ "main" ]
+    # --- NUEVO: Programación ---
+    schedule:
+      - cron: '12 22 * * *' # Ejecuta todos los días a las 22:12 UTC (23:12 en Barcelona)
+    # --------------------------
 
 jobs:
   build:
