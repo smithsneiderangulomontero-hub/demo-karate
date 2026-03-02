@@ -5,10 +5,10 @@ on:
     branches: [ "main", "feature/001-usuarios-nuevos" ]
   pull_request:
     branches: [ "main" ]
-    # --- NUEVO: Programación ---
-    schedule:
-      - cron: '12 22 * * *' # Ejecuta todos los días a las 22:12 UTC (23:12 en Barcelona)
-    # --------------------------
+  # --- NUEVO: Programación ---
+  schedule:
+    - cron: '12 22 * * *' # Todos los días a las 22:12 UTC (23:12 en Barcelona)
+  # --------------------------
 
 jobs:
   build:
@@ -24,15 +24,13 @@ jobs:
           distribution: 'temurin'
           cache: 'maven'
 
-      # Ejecuta los tests. Usamos '|| true' para que no falle el paso si los tests fallan
       - name: Build and Test with Maven
         run: mvn clean test || true
 
-      # Sube reportes si existen
       - name: Upload Karate Reports
         uses: actions/upload-artifact@v4
         if: always()
         with:
           name: karate-reports
-          path: target/karate-reports # <--- mejora
-          if-no-files-found: warn # <--- Cambiado a 'warn' para no fallar el job
+          path: target/karate-reports
+          if-no-files-found: warn

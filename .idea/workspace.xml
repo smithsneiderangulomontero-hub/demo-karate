@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de maven.yml comentario v2">
+    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de maven.yml comentario v3">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,7 +153,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772494348570</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Actualizacion de maven.yml comentario v3">
+      <option name="closed" value="true" />
+      <created>1772494889442</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1772494889442</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -163,6 +170,7 @@
     <MESSAGE value="Actualizacion de maven.yml comentario" />
     <MESSAGE value="Actualizacion de maven.yml comentario v1" />
     <MESSAGE value="Actualizacion de maven.yml comentario v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de maven.yml comentario v2" />
+    <MESSAGE value="Actualizacion de maven.yml comentario v3" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de maven.yml comentario v3" />
   </component>
 </project>
