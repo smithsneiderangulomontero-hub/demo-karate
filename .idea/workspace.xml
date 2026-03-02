@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="">
+    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de archivo pom v2">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,12 +35,12 @@
     &quot;assignee&quot;: &quot;smithsneiderangulomontero-hub&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/smithsneiderangulomontero-hub/demo-karate.git&quot;,
-    &quot;accountId&quot;: &quot;cf56fb62-0e89-408c-ac53-747d96750445&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/smithsneiderangulomontero-hub/demo-karate.git",
+    "accountId": "0a2096d8-099f-4d98-8339-4f9e1d5a5ba5"
   }
-}</component>
+}]]></component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/.github/workflows/maven.yml" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/pom.xml" root0="SKIP_INSPECTION" />
@@ -113,6 +115,19 @@
       <option name="presentableId" value="Default" />
       <updated>1772479092978</updated>
     </task>
+    <task id="LOCAL-00001" summary="Actualizacion de archivo pom v2">
+      <option name="closed" value="true" />
+      <created>1772493520200</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1772493520200</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Actualizacion de archivo pom v2" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de archivo pom v2" />
   </component>
 </project>

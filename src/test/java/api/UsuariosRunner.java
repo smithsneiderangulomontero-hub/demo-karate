@@ -6,7 +6,9 @@ class UsuariosRunner {
 
     @Karate.Test
     Karate testUsers() {
-        // Busca en src/test/resources/api/usuarios.feature
-        return Karate.run("classpath:api/usuarios.feature");
+        // Ejecuta el feature y fuerza la generación de reportes HTML
+        return Karate.run("classpath:api/usuarios.feature")
+                .outputHtmlReport(true) // <--- ESTO ES CLAVE
+                .outputCucumberJson(true); // Opcional, pero recomendado
     }
 }
