@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de maven.yml comentario v4">
-      <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
+    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de maven.yml comentario v5">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +171,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772495159623</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Actualizacion de maven.yml comentario v5">
+      <option name="closed" value="true" />
+      <created>1772495316528</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1772495316528</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -181,6 +190,7 @@
     <MESSAGE value="Actualizacion de maven.yml comentario v2" />
     <MESSAGE value="Actualizacion de maven.yml comentario v3" />
     <MESSAGE value="Actualizacion de maven.yml comentario v4" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de maven.yml comentario v4" />
+    <MESSAGE value="Actualizacion de maven.yml comentario v5" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de maven.yml comentario v5" />
   </component>
 </project>
