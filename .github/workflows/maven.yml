@@ -27,7 +27,7 @@ jobs:
       - name: Build and Test with Maven
         run: mvn clean test || true
 
-      - name: Listar carpeta target
+      - name: List target folder
         if: always()
         run: find target -type f | sort
 
