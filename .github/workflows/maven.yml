@@ -29,7 +29,7 @@ jobs:
 
       # 4. Guarda los reportes HTML de Karate para poder descargarlos
       - name: Upload Karate Reports
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: always() # Se ejecuta aunque los tests fallen
         with:
           name: karate-reports
