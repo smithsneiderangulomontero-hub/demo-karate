@@ -31,8 +31,8 @@ jobs:
       # Sube reportes si existen
       - name: Upload Karate Reports
         uses: actions/upload-artifact@v4
-        if: always() # Siempre intenta subir
+        if: always() # Se ejecuta aunque los tests fallen
         with:
           name: karate-reports
-          path: target/karate-reports # Se quitó la barra final '/' para mayor compatibilidad
-          if-no-files-found: ignore # <-- ESTO ES CLAVE: Ignora si no hay reportes
+          path: target/karate-reports/ # <--- Asegúrate de esta barra final '/'
+          if-no-files-found: warn # <--- Cambiado a 'warn' para ver si encuentra algo
