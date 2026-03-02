@@ -27,6 +27,10 @@ jobs:
       - name: Build and Test with Maven
         run: mvn clean test || true
 
+      - name: Listar carpeta target
+        if: always()
+        run: find target -type f | sort
+
       - name: Upload Karate Reports
         uses: actions/upload-artifact@v4
         if: always()
