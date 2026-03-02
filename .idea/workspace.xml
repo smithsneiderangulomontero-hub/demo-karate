@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de archivo pom v2">
+    <list default="true" id="70071017-3e6a-4bce-80c2-8f635cef36c0" name="Changes" comment="Actualizacion de archivo pom v3 y maven.yml">
       <change beforePath="$PROJECT_DIR$/.github/workflows/maven.yml" beforeDir="false" afterPath="$PROJECT_DIR$/.github/workflows/maven.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/api/UsuariosRunner.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,11 +122,20 @@
       <option name="project" value="LOCAL" />
       <updated>1772493520200</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Actualizacion de archivo pom v3 y maven.yml">
+      <option name="closed" value="true" />
+      <created>1772494083729</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1772494083729</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Actualizacion de archivo pom v2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de archivo pom v2" />
+    <MESSAGE value="Actualizacion de archivo pom v3 y maven.yml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Actualizacion de archivo pom v3 y maven.yml" />
   </component>
 </project>
