@@ -34,5 +34,5 @@ jobs:
         if: always()
         with:
           name: karate-reports
-          path: target/karate-reports/ # <--- mejora
+          path: target/karate-reports # <--- mejora
           if-no-files-found: warn # <--- Cambiado a 'warn' para no fallar el job
