@@ -5,6 +5,8 @@ on:
     branches: [ "main" ]
   pull_request:
     branches: [ "main" ]
+  # --- Disparador manual ----
+  workflow_dispatch: # 👈 permite ejecución manual
   # --- NUEVO: Programación ---
   schedule:
     - cron: '10 0 * * *' # Todos los días a las 00:10 UTC (01:10 en Barcelona)
