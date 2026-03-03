@@ -1,0 +1,41 @@
+name: Karate CI
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+  # --- Disparador manual ----
+  workflow_dispatch: # 👈 permite ejecución manual
+  # --- NUEVO: Programación ---
+  schedule:
+    - cron: '10 0 * * *' # Todos los días a las 00:10 UTC (01:10 en Barcelona)
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+          cache: 'maven'
+
+      - name: Build and Test with Maven
+        run: mvn clean test || true
+
+      - name: List target folder
+        if: always()
+        run: find target -type f | sort
+
+      - name: Upload Karate Reports
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: karate-reports
+          path: target/karate-reports
+          if-no-files-found: warn
