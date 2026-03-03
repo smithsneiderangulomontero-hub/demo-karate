@@ -2,7 +2,7 @@ name: Karate CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "main","feature/001-usuarios-nuevos" ]
   pull_request:
     branches: [ "main" ]
   # --- Disparador manual ----
