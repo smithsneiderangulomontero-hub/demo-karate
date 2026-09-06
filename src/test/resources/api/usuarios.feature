@@ -35,3 +35,5 @@ Feature: Gestión de usuarios
     Given path 'users', 1
     When method DELETE
     Then status 204
+
+  # prueba de trigger automatico
