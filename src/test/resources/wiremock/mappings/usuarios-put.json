@@ -1,0 +1,12 @@
+{
+  "request": { "method": "PUT", "url": "/users/1" },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": {
+      "id": 1,
+      "name": "Ana Garcia Actualizada",
+      "email": "ana.garcia@example.com"
+    }
+  }
+}
