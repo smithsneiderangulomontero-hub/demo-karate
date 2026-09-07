@@ -1,0 +1,12 @@
+{
+  "request": {
+    "method": "POST",
+    "url": "/auth/login",
+    "bodyPatterns": [{ "matchesJsonPath": "$.username" }]
+  },
+  "response": {
+    "status": 200,
+    "headers": { "Content-Type": "application/json" },
+    "jsonBody": { "token": "eyJhbGciOiJIUzI1NiJ9.fake-token-demo" }
+  }
+}

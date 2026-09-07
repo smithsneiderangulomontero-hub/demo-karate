@@ -14,9 +14,16 @@ class UsuariosRunner {
         .build();
 
     @Karate.Test
-    Karate testUsuarios() {
-        return Karate.run("classpath:api/usuarios.feature").relativeTo(
-            getClass()
-        );
+    Karate testSmoke() {
+        return Karate.run("classpath:api/usuarios.feature")
+            .tags("@smoke")
+            .relativeTo(getClass());
+    }
+
+    @Karate.Test
+    Karate testRegression() {
+        return Karate.run("classpath:api/usuarios.feature")
+            .tags("@regression")
+            .relativeTo(getClass());
     }
 }
